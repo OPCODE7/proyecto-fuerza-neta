@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Fuerza neta</title>
+</head>
+
+<body>
+    <div class="winner">
+        <span></span>
+    </div>
+    <i class="fa-solid fa-rotate-right reload"></i>
+    <span id="add-strength">Sumatoria de fuerzas: 0</span>
+    <div class="container-arrows">
+        <figure class="strength-left">
+            <p>Fuerza de la izquierda</p>
+            <img src="img/arrow-left.png" alt="flecha-izquierda" class="arrow-left">
+            <span id="tot-strength-left"></span>
+        </figure>
+        <figure class="strength-right">
+            <img src="img/arrow-right.png" alt="flecha-izquierda" class="arrow-right">
+            <p>Fuerza de la derecha</p>
+            <span id="tot-strength-right"></span>
+        </figure>
+    </div>
+
+    <div class="vagoneta">
+        <div class="left">
+
+        </div>
+        <img src="img/diamonds.png" alt="vagoneta" class="diamonds">
+        <img src="img/cuerda.png" alt="cuerda" class="cuerda">
+        <div class="right">
+
+        </div>
+    </div>
+    <div class="container-bottom">
+        <div class="cartoons-left cartoons-container">
+            <div class="big figures" draggable="true">
+                <span id="strength">150N</span>
+                <img src="img/narutoleft.png" alt="naruto-minecraft">
+            </div>
+            <div class="medium figures" draggable="true">
+                <span id="strength">100N</span>
+                <img src="img/narutoleft.png" alt="naruto-minecraft">
+            </div>
+            <div class="small figures" draggable="true">
+                <span id="strength">50N</span>
+                <img src="img/narutoleft.png" alt="naruto-minecraft">
+            </div>
+        </div>
+        <div class="container-buttons">
+            <button class="start" disabled>
+                Iniciar
+            </button>
+            <button class="restart" disabled>
+                Reiniciar
+            </button>
+        </div>
+        <div class="cartoons-right cartoons-container">
+            <div class="small figures" draggable="true">
+                <span id="strength">50N</span>
+                <img src="img/akatsukiright.png" alt="akatsuki-minecraft">
+            </div>
+            <div class="medium figures" draggable="true">
+                <span id="strength">100N</span>
+                <img src="img/akatsukiright.png" alt="akatsuki-minecraft">
+            </div>
+            <div class="big figures" draggable="true">
+                <span id="strength">150N</span>
+                <img src="img/akatsukiright.png" alt="akatsuki-minecraft">
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
